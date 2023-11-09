@@ -1,0 +1,242 @@
+# newdoc id = T990507.2
+# sent_id = s1
+# text = Veruntreute die AWO Spendengeld?
+Veruntreute	VVFIN	LK
+die	ART	MF
+AWO	NN	MF
+Spendengeld	NN	MF
+?	$.	NULL
+
+# sent_id = s2
+# text = Staatsanwaltschaft muß AWO-Konten prüfen/Flossen 165.000 Mark Sammelgelder für Flutopfer in ein Altenheim in Danzig?
+Staatsanwaltschaft	NN	VF
+muß	VMFIN	LK
+AWO-Konten	NN	MF
+prüfen	VVINF	VC
+/	$LBR	NULL
+Flossen	VVFIN	LK
+165.000	CARD	MF
+Mark	NN	MF
+Sammelgelder	NN	MF
+für	APPR	MF
+Flutopfer	NN	MF
+in	APPR	MF
+ein	ART	MF
+Altenheim	NN	MF
+in	APPR	MF
+Danzig	NE	MF
+?	$.	NULL
+
+# sent_id = s3
+# text = Landesvorsitzende Ute Wedemeier: Ein Buchungsfehler
+Landesvorsitzende	NN	NULL
+Ute	NE	NULL
+Wedemeier	NE	NULL
+:	$.	NULL
+Ein	ART	NULL
+Buchungsfehler	NN	NULL
+
+# sent_id = s4
+# text = Im Januar hat die Arbeiterwohlfahrt Bremen ihren langjährigen Geschäftsführer Hans Taake fristlos entlassen, nun wird auch der Vorstand der Wohlfahrtsorganisation in den Fall hineingezogen.
+Im	_	NULL
+in	APPR	VF
+Januar	NN	VF
+hat	VAFIN	LK
+die	ART	MF
+Arbeiterwohlfahrt	NN	MF
+Bremen	NE	MF
+ihren	PPOSAT	MF
+langjährigen	ADJA	MF
+Geschäftsführer	NN	MF
+Hans	NE	MF
+Taake	NE	MF
+fristlos	ADJD	MF
+entlassen	VVPP	VC
+,	$,	NULL
+nun	ADV	VF
+wird	VAFIN	LK
+auch	ADV	MF
+der	ART	MF
+Vorstand	NN	MF
+der	ART	MF
+Wohlfahrtsorganisation	NN	MF
+in	APPR	MF
+den	ART	MF
+Fall	NN	MF
+hineingezogen	VVPP	VC
+.	$.	NULL
+
+# sent_id = s5
+# text = In einer anonymen Anzeige werden der Bremer Staatsanwaltschaft Details über dubiose finanzielle Transaktionen mitgeteilt.
+In	APPR	VF
+einer	ART	VF
+anonymen	ADJA	VF
+Anzeige	NN	VF
+werden	VAFIN	LK
+der	ART	MF
+Bremer	ADJA	MF
+Staatsanwaltschaft	NN	MF
+Details	NN	MF
+über	APPR	MF
+dubiose	ADJA	MF
+finanzielle	ADJA	MF
+Transaktionen	NN	MF
+mitgeteilt	VVPP	VC
+.	$.	NULL
+
+# sent_id = s6
+# text = Verantwortlich, so das Schreiben einer Mitarbeiterin der AWO, sei die Landesvorsitzende Uter Wedemeier, die sich jetzt als "Sauberfrau" gebe, "wo doch alle wissen, wie eng sie mit Taake zusammenhing".
+Verantwortlich	ADJD	VF
+,	$,	NULL
+so	ADV	NULL
+das	ART	NULL
+Schreiben	NN	NULL
+einer	ART	NULL
+Mitarbeiterin	NN	NULL
+der	ART	NULL
+AWO	NN	NULL
+,	$,	NULL
+sei	VAFIN	LK
+die	ART	MF
+Landesvorsitzende	NN	MF
+Uter	NE	MF
+Wedemeier	NE	MF
+,	$,	NULL
+die	PRELS	NF-C
+sich	PRF	NF-MF
+jetzt	ADV	NF-MF
+als	KOKOM	NF-MF
+"	$LBR	NF-MF
+Sauberfrau	NN	NF-MF
+"	$LBR	NF
+gebe	VVFIN	NF-VC
+,	$,	NF
+"	$LBR	NF
+wo	PWAV	NF-NF-C
+doch	ADV	NF-NF-MF
+alle	PIS	NF-NF-MF
+wissen	VVFIN	NF-NF-VC
+,	$,	NF-NF
+wie	PWAV	NF-NF-NF-C
+eng	ADJD	NF-NF-NF-C
+sie	PPER	NF-NF-NF-MF
+mit	APPR	NF-NF-NF-MF
+Taake	NE	NF-NF-NF-MF
+zusammenhing	VVFIN	NF-NF-NF-VC
+"	$LBR	NULL
+.	$.	NULL
+
+# sent_id = s7
+# text = Vorwurf Nummer 1: 165.000 Mark aus der bundesweiten Geldsammlung für die Flutopfer in Südpolen seien über das Konto des Bremer Landesverbandes der AWO an die Caritas in Danzig geflossen, "damit dort ein Altenheim gebaut wird".
+Vorwurf	NN	NULL
+Nummer	NN	NULL
+1	CARD	NULL
+:	$.	NULL
+165.000	CARD	VF
+Mark	NN	VF
+aus	APPR	VF
+der	ART	VF
+bundesweiten	ADJA	VF
+Geldsammlung	NN	VF
+für	APPR	VF
+die	ART	VF
+Flutopfer	NN	VF
+in	APPR	VF
+Südpolen	NN	VF
+seien	VAFIN	LK
+über	APPR	MF
+das	ART	MF
+Konto	NN	MF
+des	ART	MF
+Bremer	ADJA	MF
+Landesverbandes	NN	MF
+der	ART	MF
+AWO	NN	MF
+an	APPR	MF
+die	ART	MF
+Caritas	NE	MF
+in	APPR	MF
+Danzig	NE	MF
+geflossen	VVPP	VC
+,	$,	NULL
+"	$LBR	NULL
+damit	KOUS	NF-C
+dort	ADV	NF-MF
+ein	ART	NF-MF
+Altenheim	NN	NF-MF
+gebaut	VVPP	NF-VC
+wird	VAFIN	NF-VC
+"	$LBR	NULL
+.	$.	NULL
+
+# sent_id = s8
+# text = Das Altenheim sei "ein Prestigeobjekt von ihr und anderen".
+Das	ART	VF
+Altenheim	NN	VF
+sei	VAFIN	LK
+"	$LBR	NULL
+ein	ART	MF
+Prestigeobjekt	NN	MF
+von	APPR	MF
+ihr	PPER	MF
+und	KON	MF
+anderen	PIS	MF
+"	$LBR	NULL
+.	$.	NULL
+
+# sent_id = s9
+# text = In der Tat sitzt Ute Wedemeier im Kuratorium für das Altenheim, eine derartige Umleitung von Geldern habe es aber nicht gegeben, sagt sie.
+In	APPR	VF
+der	ART	VF
+Tat	NN	VF
+sitzt	VVFIN	LK
+Ute	NE	MF
+Wedemeier	NE	MF
+im	_	NULL
+in	APPR	MF
+Kuratorium	NN	MF
+für	APPR	MF
+das	ART	MF
+Altenheim	NN	MF
+,	$,	NULL
+eine	ART	VF-VF
+derartige	ADJA	VF-VF
+Umleitung	NN	VF-VF
+von	APPR	VF-VF
+Geldern	NN	VF-VF
+habe	VAFIN	VF-LK
+es	PPER	VF-MF
+aber	ADV	VF-MF
+nicht	PTKNEG	VF-MF
+gegeben	VVPP	VF-VC
+,	$,	NULL
+sagt	VVFIN	LK
+sie	PPER	MF
+.	$.	NULL
+
+# sent_id = s10
+# text = "Wenn da was gebucht worden ist, dann ist das nicht in Ordnung"- höchstens einen Buchungsfehler kann sie sich vorstellen.
+"	$LBR	NULL
+Wenn	KOUS	LV-C
+da	ADV	LV-MF
+was	PIS	LV-MF
+gebucht	VVPP	LV-VC
+worden	VAPP	LV-VC
+ist	VAFIN	LV-VC
+,	$,	NULL
+dann	ADV	VF
+ist	VAFIN	LK
+das	PDS	MF
+nicht	PTKNEG	MF
+in	APPR	MF
+Ordnung	NN	MF
+"	$LBR	NULL
+-	$LBR	NULL
+höchstens	ADV	VF
+einen	ART	VF
+Buchungsfehler	NN	VF
+kann	VMFIN	LK
+sie	PPER	MF
+sich	PRF	MF
+vorstellen	VVINF	VC
+.	$.	NULL

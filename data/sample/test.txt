@@ -1,0 +1,240 @@
+# sent_id = s21
+# text = Da der Landesverband als Dachverband ohne hauptamtliches Personal nur einen "ganz kleinen Haushalt" hat (Wedemeier), hätten Summen von Hapaq Lloyd oder 165.000 Mark schon auffallen müssen.
+Da	KOUS	VF-C
+der	ART	VF-MF
+Landesverband	NN	VF-MF
+als	KOKOM	VF-MF
+Dachverband	NN	VF-MF
+ohne	APPR	VF-MF
+hauptamtliches	ADJA	VF-MF
+Personal	NN	VF-MF
+nur	ADV	VF-MF
+einen	ART	VF-MF
+"	$LBR	VF-MF
+ganz	ADV	VF-MF
+kleinen	ADJA	VF-MF
+Haushalt	NN	VF-MF
+"	$LBR	VF
+hat	VAFIN	VF-VC
+(	$LBR	NULL
+Wedemeier	NE	NULL
+)	$LBR	NULL
+,	$,	NULL
+hätten	VAFIN	LK
+Summen	NN	MF
+von	APPR	MF
+Hapaq	NE	MF
+Lloyd	NE	MF
+oder	KON	MF
+165.000	CARD	MF
+Mark	NN	MF
+schon	ADV	MF
+auffallen	VVINF	VC
+müssen	VMINF	VC
+.	$.	NULL
+
+# sent_id = s22
+# text = Vorwurf Nummer 3: Die Landesvorsitzende Ute Wedemeier hatte auf AWO-Kosten ein Handy.
+Vorwurf	NN	NULL
+Nummer	NN	NULL
+3	CARD	NULL
+:	$.	NULL
+Die	ART	VF
+Landesvorsitzende	NN	VF
+Ute	NE	VF
+Wedemeier	NE	VF
+hatte	VAFIN	LK
+auf	APPR	MF
+AWO-Kosten	NN	MF
+ein	ART	MF
+Handy	NN	MF
+.	$.	NULL
+
+# sent_id = s23
+# text = "Hier werden Beiträge von kleinen Leuten veraast, die von ehrenamtlichen Kassierern fünf Mark weise gesammelt werden", schreibt die anonyme AWO-Mitarbeiterin an die Staatsanwaltschaft.
+"	$LBR	NULL
+Hier	ADV	VF-VF
+werden	VAFIN	VF-LK
+Beiträge	NN	VF-MF
+von	APPR	VF-MF
+kleinen	ADJA	VF-MF
+Leuten	NN	VF-MF
+veraast	VVPP	VF-VC
+,	$,	VF
+die	PRELS	VF-NF-C
+von	APPR	VF-NF-MF
+ehrenamtlichen	ADJA	VF-NF-MF
+Kassierern	NN	VF-NF-MF
+fünf	CARD	VF-NF-MF
+Mark	NN	VF-NF-MF
+weise	ADV	VF-NF-MF
+gesammelt	VVPP	VF-NF-VC
+werden	VAFIN	VF-NF-VC
+"	$LBR	NULL
+,	$,	NULL
+schreibt	VVFIN	LK
+die	ART	MF
+anonyme	ADJA	MF
+AWO-Mitarbeiterin	NN	MF
+an	APPR	MF
+die	ART	MF
+Staatsanwaltschaft	NN	MF
+.	$.	NULL
+
+# sent_id = s24
+# text = Obwohl Frau Wedemeier "vor allem Privatgespräche über das Handy" führe, würde alles von der AWO bezahlt.
+Obwohl	KOUS	VF-C
+Frau	NN	VF-MF
+Wedemeier	NE	VF-MF
+"	$LBR	VF-MF
+vor	APPR	VF-MF
+allem	PIS	VF-MF
+Privatgespräche	NN	VF-MF
+über	APPR	VF-MF
+das	ART	VF-MF
+Handy	NN	VF-MF
+"	$LBR	VF
+führe	VVFIN	VF-VC
+,	$,	NULL
+würde	VAFIN	LK
+alles	PIS	MF
+von	APPR	MF
+der	ART	MF
+AWO	NN	MF
+bezahlt	VVPP	VC
+.	$.	NULL
+
+# sent_id = s25
+# text = Ute Wedemeier hält es für "selbstverständlich", daß sie als ehrenamtliche Vorsitzende ein dienstliches Handy hat.
+Ute	NE	VF
+Wedemeier	NE	VF
+hält	VVFIN	LK
+es	PPER	MF
+für	APPR	MF
+"	$LBR	MF
+selbstverständlich	ADJD	MF
+"	$LBR	NULL
+,	$,	NULL
+daß	KOUS	NF-C
+sie	PPER	NF-MF
+als	KOKOM	NF-MF
+ehrenamtliche	ADJA	NF-MF
+Vorsitzende	NN	NF-MF
+ein	ART	NF-MF
+dienstliches	ADJA	NF-MF
+Handy	NN	NF-MF
+hat	VAFIN	NF-VC
+.	$.	NULL
+
+# sent_id = s26
+# text = Insbesondere wegen ihrer Aktivitäten in Riga und Danzig müsse sie erreichbar sein und auch telefonieren können.
+Insbesondere	ADV	VF
+wegen	APPR	VF
+ihrer	PPOSAT	VF
+Aktivitäten	NN	VF
+in	APPR	VF
+Riga	NE	VF
+und	KON	VF
+Danzig	NE	VF
+müsse	VMFIN	LK
+sie	PPER	FKOORD-FKONJ-MF
+erreichbar	ADJD	FKOORD-FKONJ-MF
+sein	VAINF	FKOORD-FKONJ-VC
+und	KON	FKOORD
+auch	ADV	FKOORD-FKONJ-MF
+telefonieren	VVINF	FKOORD-FKONJ-VC
+können	VMINF	FKOORD-FKONJ-VC
+.	$.	NULL
+
+# sent_id = s27
+# text = Wieviel da monatlich fällig wird, weiß sie aber nicht- "die Rechnung geht direkt an die AWO".
+Wieviel	PWS	VF-C
+da	ADV	VF-MF
+monatlich	ADJD	VF-MF
+fällig	ADJD	VF-MF
+wird	VAFIN	VF-VC
+,	$,	NULL
+weiß	VVFIN	LK
+sie	PPER	MF
+aber	ADV	MF
+nicht	PTKNEG	MF
+-	$LBR	NULL
+"	$LBR	NULL
+die	ART	VF
+Rechnung	NN	VF
+geht	VVFIN	LK
+direkt	ADJD	MF
+an	APPR	MF
+die	ART	MF
+AWO	NN	MF
+"	$LBR	NULL
+.	$.	NULL
+
+# sent_id = s28
+# text = Hintergrund der gegenseitigen Vorwürfe in der Arbeiterwohlfahrt sind offenbar scharfe Konkurrenzen zwischen Bremern und Bremerhavenern.
+Hintergrund	NN	VF
+der	ART	VF
+gegenseitigen	ADJA	VF
+Vorwürfe	NN	VF
+in	APPR	VF
+der	ART	VF
+Arbeiterwohlfahrt	NN	VF
+sind	VAFIN	LK
+offenbar	ADV	MF
+scharfe	ADJA	MF
+Konkurrenzen	NN	MF
+zwischen	APPR	MF
+Bremern	NN	MF
+und	KON	MF
+Bremerhavenern	NN	MF
+.	$.	NULL
+
+# sent_id = s29
+# text = Als es in dieser Woche um die Neubesetzung des ehrenamtlichen Geschäftsführer-Postens im Landesverbandes ging, da sind diese Differenzen wieder aufgebrochen.
+Als	KOUS	LV-C
+es	PPER	LV-MF
+in	APPR	LV-MF
+dieser	PDAT	LV-MF
+Woche	NN	LV-MF
+um	APPR	LV-MF
+die	ART	LV-MF
+Neubesetzung	NN	LV-MF
+des	ART	LV-MF
+ehrenamtlichen	ADJA	LV-MF
+Geschäftsführer-Postens	NN	LV-MF
+im	_	NULL
+in	APPR	LV-MF
+Landesverbandes	NN	LV-MF
+ging	VVFIN	LV-VC
+,	$,	NULL
+da	ADV	VF
+sind	VAFIN	LK
+diese	PDAT	MF
+Differenzen	NN	MF
+wieder	ADV	MF
+aufgebrochen	VVPP	VC
+.	$.	NULL
+
+# sent_id = s30
+# text = Lothar Koring, Bremerhavener AWO-Vorsitzender, wollte seinen Bremerhavener Geschäftsführer Volker Tegeler auch im Landesverband zum Geschäftsführer machen.
+Lothar	NE	VF
+Koring	NE	VF
+,	$,	VF
+Bremerhavener	ADJA	VF
+AWO-Vorsitzender	NN	VF
+,	$,	NULL
+wollte	VMFIN	LK
+seinen	PPOSAT	MF
+Bremerhavener	ADJA	MF
+Geschäftsführer	NN	MF
+Volker	NE	MF
+Tegeler	NE	MF
+auch	ADV	MF
+im	_	NULL
+in	APPR	MF
+Landesverband	NN	MF
+zum	_	NULL
+zu	APPR	MF
+dem	ART	MF
+machen	VVINF	VC
+.	$.	NULL

@@ -1,0 +1,214 @@
+# sent_id = s11
+# text = Volker Tegeler, stellvertretender Geschäftsführer des Landesverbandes, sagt:
+Volker	NE	VF
+Tegeler	NE	VF
+,	$,	VF
+stellvertretender	ADJA	VF
+Geschäftsführer	NN	VF
+des	ART	VF
+Landesverbandes	NN	VF
+,	$,	NULL
+sagt	VVFIN	LK
+:	$.	NULL
+
+# sent_id = s12
+# text = "Es gibt so eine Buchung."
+"	$LBR	NULL
+Es	PPER	VF
+gibt	VVFIN	LK
+so	ADV	MF
+eine	ART	MF
+Buchung	NN	MF
+.	$.	NULL
+"	$LBR	NULL
+
+# sent_id = s13
+# text = In einer internen Kontrolle nach der Kündigung von Taake sei dies aufgefallen, zur Aufklärung solle ein externer Wirtschaftsprüfer beauftragt werden.
+In	APPR	VF
+einer	ART	VF
+internen	ADJA	VF
+Kontrolle	NN	VF
+nach	APPR	VF
+der	ART	VF
+Kündigung	NN	VF
+von	APPR	VF
+Taake	NE	VF
+sei	VAFIN	LK
+dies	PDS	MF
+aufgefallen	VVPP	VC
+,	$,	NULL
+zur	_	NULL
+zu	APPR	VF
+Aufklärung	NN	VF
+solle	VMFIN	LK
+ein	ART	MF
+externer	ADJA	MF
+Wirtschaftsprüfer	NN	MF
+beauftragt	VVPP	VC
+werden	VAINF	VC
+.	$.	NULL
+
+# sent_id = s14
+# text = Verantwortlich für die Finanzen des Landesverbandes sei aber "durchgehend Herr Taake" gewesen, sagt Tegeler.
+Verantwortlich	ADJD	VF-VF-MF
+für	APPR	VF-VF-MF
+die	ART	VF-VF-MF
+Finanzen	NN	VF-VF-MF
+des	ART	VF-VF-MF
+Landesverbandes	NN	VF-VF-MF
+sei	VAFIN	VF-LK
+aber	ADV	VF-MF
+"	$LBR	VF-MF
+durchgehend	ADJD	VF-MF
+Herr	NN	VF-MF
+Taake	NE	VF-MF
+"	$LBR	VF
+gewesen	VAPP	VF-VC
+,	$,	NULL
+sagt	VVFIN	LK
+Tegeler	NE	MF
+.	$.	NULL
+
+# sent_id = s15
+# text = Aufgefallen bei der internen Prüfung ist auch Vorwurf Nummer 2: Die AWO hat sich für Seniorenreisen nach Mallorca von Hapaq Lloyd Provisionen zahlen lassen.
+Aufgefallen	VVPP	VF-FKONJ-VC
+bei	APPR	VF-FKONJ-NF
+der	ART	VF-FKONJ-NF
+internen	ADJA	VF-FKONJ-NF
+Prüfung	NN	VF-FKONJ-NF
+ist	VAFIN	LK
+auch	ADV	MF
+Vorwurf	NN	MF
+Nummer	NN	MF
+2	CARD	MF
+:	$.	NULL
+Die	ART	VF
+AWO	NN	VF
+hat	VAFIN	LK
+sich	PRF	MF
+für	APPR	MF
+Seniorenreisen	NN	MF
+nach	APPR	MF
+Mallorca	NE	MF
+von	APPR	MF
+Hapaq	NE	MF
+Lloyd	NE	MF
+Provisionen	NN	MF
+zahlen	VVINF	VC
+lassen	VVINF	VC
+.	$.	NULL
+
+# sent_id = s16
+# text = Die seien auf ein Konto des Landesverbandes der AWO geflossen, weil sie dort vor einer Finanzamtsprüfung sicherer gewesen seien.
+Die	PDS	VF
+seien	VAFIN	LK
+auf	APPR	MF
+ein	ART	MF
+Konto	NN	MF
+des	ART	MF
+Landesverbandes	NN	MF
+der	ART	MF
+AWO	NN	MF
+geflossen	VVPP	VC
+,	$,	NULL
+weil	KOUS	NF-C
+sie	PPER	NF-MF
+dort	ADV	NF-MF
+vor	APPR	NF-MF
+einer	ART	NF-MF
+Finanzamtsprüfung	NN	NF-MF
+sicherer	ADJD	NF-MF
+gewesen	VAPP	NF-VC
+seien	VAFIN	NF-VC
+.	$.	NULL
+
+# sent_id = s17
+# text = Tegeler bestätigt den Vorgang der Provisionszahlungen, meint allerdings, es müsse ein "Buchungsfehler" gewesen sein.
+Tegeler	NE	VF
+bestätigt	VVFIN	FKOORD-FKONJ-LK
+den	ART	FKOORD-FKONJ-MF
+Vorgang	NN	FKOORD-FKONJ-MF
+der	ART	FKOORD-FKONJ-MF
+Provisionszahlungen	NN	FKOORD-FKONJ-MF
+,	$,	FKOORD
+meint	VVFIN	FKOORD-FKONJ-LK
+allerdings	ADV	FKOORD-FKONJ-MF
+,	$,	FKOORD-FKONJ
+es	PPER	FKOORD-FKONJ-NF-VF
+müsse	VMFIN	FKOORD-FKONJ-NF-LK
+ein	ART	FKOORD-FKONJ-NF-MF
+"	$LBR	FKOORD-FKONJ-NF-MF
+Buchungsfehler	NN	FKOORD-FKONJ-NF-MF
+"	$LBR	FKOORD-FKONJ-NF
+gewesen	VAPP	FKOORD-FKONJ-NF-VC
+sein	VAINF	FKOORD-FKONJ-NF-VC
+.	$.	NULL
+
+# sent_id = s18
+# text = Die ehrenamtliche Landesvorsitzende Wedemeier weiß von diesem Vorgang nichts, "ich kontrolliere solche Sachen doch nicht, das machen die hauptamtlichen Geschäftsführer."
+Die	ART	VF
+ehrenamtliche	ADJA	VF
+Landesvorsitzende	NN	VF
+Wedemeier	NE	VF
+weiß	VVFIN	LK
+von	APPR	MF
+diesem	PDAT	MF
+Vorgang	NN	MF
+nichts	PIS	MF
+,	$,	NULL
+"	$LBR	NULL
+ich	PPER	VF
+kontrolliere	VVFIN	LK
+solche	PIDAT	MF
+Sachen	NN	MF
+doch	ADV	MF
+nicht	PTKNEG	MF
+,	$,	NULL
+das	PDS	VF
+machen	VVFIN	LK
+die	ART	MF
+hauptamtlichen	ADJA	MF
+Geschäftsführer	NN	MF
+.	$.	NULL
+"	$LBR	NULL
+
+# sent_id = s19
+# text = Kontrolliert werden die Geschäftsführer von den gewählten Revisoren des AWO-Landesverbandes, das sind Detlev Griesche und Karin Freudenthal.
+Kontrolliert	VVPP	VF-VC
+werden	VAFIN	LK
+die	ART	MF
+Geschäftsführer	NN	MF
+von	APPR	MF
+den	ART	MF
+gewählten	ADJA	MF
+Revisoren	NN	MF
+des	ART	MF
+AWO-Landesverbandes	NN	MF
+,	$,	NULL
+das	PDS	VF
+sind	VAFIN	LK
+Detlev	NE	MF
+Griesche	NE	MF
+und	KON	MF
+Karin	NE	MF
+Freudenthal	NE	MF
+.	$.	NULL
+
+# sent_id = s20
+# text = Freuden-thal wollte gestern nichts dazu sagen, ob bei ihren Prüfungen ihr etwas aufgefallen sei.
+Freuden-thal	NE	VF
+wollte	VMFIN	LK
+gestern	ADV	MF
+nichts	PIS	MF
+dazu	PROP	MF
+sagen	VVINF	VC
+,	$,	NULL
+ob	KOUS	NF-C
+bei	APPR	NF-MF
+ihren	PPOSAT	NF-MF
+Prüfungen	NN	NF-MF
+ihr	PPER	NF-MF
+etwas	PIS	NF-MF
+aufgefallen	VVPP	NF-VC
+sei	VAFIN	NF-VC
+.	$.	NULL
